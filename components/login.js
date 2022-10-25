@@ -9,13 +9,12 @@ function login() {
           <h1>logg In </h1>
           
             <div className='flex flex-col absolute z-50 h-4/6 w-full items-center justify-center space-y-4'>
-              <Image
-                  className='object-cover rounded-full'
-                  src="https://links.papareact.com/3pi"
-                  height={200}
-                  width={200}
+              <img 
+                  className='object-cover rounded-full h-200 w-200'
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmAkNE9xrZOr8vxSCs9MRM7khvKbjLZjD9iw&usqp=CAU"
+                
                 />              
-              <button onClick={authenticate} className='bg-yellow-200 rounded-lg p-5 font-bold animate-pulse'>Login to the Metaverse</button>
+              <button onClick={authenticate} className='bg-yellow-300 rounded-lg p-5 mt-10 font-bold animate-pulse'>Login to the Metaverse</button>
             </div>
 
           <div  className='w-full h-screen'>
